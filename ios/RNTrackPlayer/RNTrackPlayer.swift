@@ -292,7 +292,6 @@ public class RNTrackPlayer: RCTEventEmitter {
         resolve(player != nil)
     }
 
-
     @objc(destroy)
     public func destroy() {
         print("Destroying player")
